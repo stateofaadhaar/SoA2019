@@ -7,35 +7,37 @@ The readme highlights the structure of the folder, including accompanying datase
 
 ## FOLDER STRUCTURE 
 
-|   **Root** 
-|
-|   **source.R :** R file to setup options, initialize functions and run the analysis and visuals for State of Aadhaar 2019
-|
-| _ _ _ _ _ | **01. Inputs** 
-|                 | 
-|                 | 
-|                 | _ _ | **01. Datasets:** State of Aadhaar, pulse and in-depth surveys as csv files
-|                 |
-|                 | _ _ | **02. Data for figures:** Meta data for some figures, required for analysis of in-depth survey
-|                 |
-|                 | _ _ | **03. Survey toolkit:** Contains methodology note, questionnaires and codebook
-|                 |
-|                 | _ _ | **04. India boundary:** Contains shapefiles for India. Sourced from Datameet, India
-|
-|
-| _ _ _ _ _ | **02. Codes** 
-|                 | R files for custom functions, as well as analysis and visualizations
-|
-|
-| _ _ _ _ _ | **03. Outputs** 
-|                 | 
-|                 | 
-|                 | _ _ | **01. Data for figures:** Folder to store data required for visuals
-|                 |
-|                 | _ _ | **02. Figures:** Figures created for the State of Aadhaar, 2019 report
-|                 |
-|                 | _ _ | **03. Logs:** Contains log outputs from analysis
+``` bash
 
+Root
+|
+|--- source.R : R file to setup options, initialize functions and run the analysis and visuals for State of Aadhaar 2019
+|
+|--- 01. Inputs 
+|     | 
+|     | 
+|     |--- 01. Datasets: State of Aadhaar, pulse and in-depth surveys as csv files
+|     |
+|     |--- 02. Data for figures: Meta data for some figures, required for analysis of in-depth survey
+|     |
+|     |--- 03. Survey toolkit: Contains methodology note, questionnaires and codebook
+|     |
+|     |--- 04. India boundary: Contains shapefiles for India. Sourced from Datameet, India
+|
+|
+|--- 02. Codes 
+|     | R files for custom functions, as well as analysis and visualizations
+|
+|
+|--- 03. Outputs 
+|     | 
+|     | 
+|     |--- 01. Data for figures: Folder to store data required for visuals
+|     |
+|     |--- 02. Figures: Figures created for the State of Aadhaar, 2019 report
+|     |
+|     |--- 03. Logs: Contains log outputs from analysis
+```
 
 ## HOW TO SET UP THE DATASET FOR ANALYSIS
 Please see the source file for examples on setting up and using the data for analysis
