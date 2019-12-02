@@ -1,0 +1,10 @@
+~~~~~~~~~~~~~~~~~~~~ THIS SCRIPT CONTAINS VISUALS CREATED AS A PART OF THE MAIN REPORT ~~~~~~~~~~~~~~~~~~~~~~
+
+=> Random DF loaded from local 
+
+=> Purposive DF loaded from local 
+
+=> Random member DF loaded from local 
+
+=> Purposive member DF loaded from local 
+
